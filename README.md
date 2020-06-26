@@ -10,20 +10,20 @@ Here is list and syntax of some important git commands that every developer must
   - Example
 
 
-*** get checkout from git repository *** 
+# *** get checkout from git repository *** 
     - git add .
     - git commit -m "your comment"
 
     - switch to branch(if required)
     - git checkout branch_name
 
-*** create and switch to new branch: *** 
+# *** create and switch to new branch: *** 
     - git checkout -b new_branch_name
     - git add .
     - git commit -m "your comment"
     - git push origin branc_name
 
-*** to push code *** 
+# *** to push code *** 
     - git add .
     - git commit -m "your comment"
     - git push origin branc_name
