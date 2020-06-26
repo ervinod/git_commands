@@ -3,20 +3,14 @@
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
 Here is list and syntax of some important git commands that every developer must konw to use git version control effectively
 
-  - Type some Markdown on the left
-  - See HTML in the right
-  - Magic
-
-# New Features!
-
-  - Import a HTML file and watch it magically convert to Markdown
-  - Drag and drop images (requires your Dropbox account be linked)
+  - Syntax
+  - Example
 
 
 *** get checkout from git repository *** 
-
     - git add .
     - git commit -m "your comment"
 
