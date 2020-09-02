@@ -42,6 +42,20 @@ Here is list and syntax of some important git commands that every developer must
     - git add .
     - git commit -m "Initial commit"
     - git push -u origin master
+    
+# *** create a new repository on the command line. ***    
+  echo "# fmisc_app" >> README.md
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git branch -M master
+  git remote add origin https://github.com/stucaretech/fmisc_app.git
+  git push -u origin master
+              
+# *** push an existing repository from the command line. ***  
+git remote add origin https://github.com/stucaretech/fmisc_app.git
+git branch -M master
+git push -u origin master
 
 ### Plugins
 
