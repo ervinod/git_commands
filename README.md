@@ -57,6 +57,12 @@ Here is list and syntax of some important git commands that every developer must
     - git branch -M master
     - git push -u origin master
 
+# *** remove remote origin. ***  
+    - git remote remove origin
+    
+# *** change/update remote origin. ***  
+    - git remote set-url origin git://new.url.here
+    
 ### Plugins
 
 
@@ -79,7 +85,7 @@ License
 MIT
 
 
-**Free Software, Hell Yeah!**
+**Free Stuff, Hell Yeah!**
 
 
 
