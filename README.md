@@ -63,6 +63,10 @@ Here is list and syntax of some important git commands that every developer must
 # *** change/update remote origin. ***  
     - git remote set-url origin git://new.url.here
     
+# *** reomve local commit from history. ***  
+    - git reset --soft HEAD^1
+
+
 ### Plugins
 
 
