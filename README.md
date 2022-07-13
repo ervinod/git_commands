@@ -65,8 +65,21 @@ Here is list and syntax of some important git commands that every developer must
     
 # *** reomve local commit from history. ***  
     - git reset --soft HEAD^1
+    
+    
+ # *** add tag to commit. ***  
+    - git git add .
+    - git commit -m "some description"
+    - git tag tag_name ///ex. git tag app_release_android_qa_0.0.7_1 
+    - git push origin master # push the commit
+    - git push --tags origin # push the tags
+    
+ 
+ # *** delete local tag. ***
+    - git tag -d app_release_android_0.0.7_1
 
-
+# *** delete local tag. ***
+    git push --delete origin app_release_android_0.0.7_1
 ### Plugins
 
 
