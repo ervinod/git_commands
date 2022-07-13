@@ -78,7 +78,7 @@ Here is list and syntax of some important git commands that every developer must
  # *** delete local tag. ***
     - git tag -d app_release_android_0.0.7_1
 
-# *** delete local tag. ***
+# *** delete remote tag. ***
     git push --delete origin app_release_android_0.0.7_1
 ### Plugins
 
