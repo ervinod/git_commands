@@ -70,8 +70,12 @@ Here is list and syntax of some important git commands that every developer must
  # *** delete local and remote branch ***  
  
     -Rename the local branch to the new name
-      git branch -m <old_name> <new_name>
+        -If you are on the branch you want to rename:
+         git branch -m new-name
 
+        -If you are on a different branch:
+         git branch -m old-name new-name
+     
     -Delete the old branch on remote - where <remote> is, for example, origin
       git push <remote> --delete <old_name>
 
@@ -87,7 +91,8 @@ Here is list and syntax of some important git commands that every developer must
 
     -Reset the upstream branch for the new_name local branch
       git push <remote> -u <new_name>
- 
+      
+    -other way - https://stackoverflow.com/a/45561865
  
  # *** add tag to commit. ***  
     - git git add .
