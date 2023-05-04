@@ -68,8 +68,9 @@ Here is list and syntax of some important git commands that every developer must
     
     
  # *** delete local and remote branch ***  
- # Rename the local branch to the new name
-git branch -m <old_name> <new_name>
+ 
+    -Rename the local branch to the new name
+    git branch -m <old_name> <new_name>
 
 # Delete the old branch on remote - where <remote> is, for example, origin
 git push <remote> --delete <old_name>
