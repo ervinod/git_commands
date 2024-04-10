@@ -13,7 +13,6 @@ Here is list and syntax of some important git commands that every developer must
 # *** get checkout from git repository *** 
     - git add .
     - git commit -m "your comment"
-
     - switch to branch(if required)
     - git checkout branch_name
 
@@ -27,7 +26,6 @@ Here is list and syntax of some important git commands that every developer must
     - git add .
     - git commit -m "your comment"
     - git push origin branc_name
-
 
 
 # *** pull code (to get latest code) ***
@@ -44,16 +42,15 @@ Here is list and syntax of some important git commands that every developer must
     - git push -u origin master
     
 # *** create a new repository on the command line. ***    
-    - echo "# fmisc_app" >> README.md
     - git init
+    - git remote add origin https://github.com/my_company/my_app.git
     - git add README.md
     - git commit -m "first commit"
     - git branch -M master
-    - git remote add origin https://github.com/stucaretech/fmisc_app.git
     - git push -u origin master
               
 # *** push an existing repository from the command line. ***  
-    - git remote add origin https://github.com/stucaretech/fmisc_app.git
+    - git remote add origin https://github.com/my_company/my_app.git
     - git branch -M master
     - git push -u origin master
 
@@ -106,15 +103,20 @@ Here is list and syntax of some important git commands that every developer must
     - git tag -d app_release_android_0.0.7_1
 
 # *** delete remote tag. ***
-    git push --delete origin app_release_android_0.0.7_1
-### Plugins
+    - git push --delete origin app_release_android_0.0.7_1
 
+# *** user repo without password. ***
+    - url = https://myusername:kaeXedbWfhWxxxxxxx@bitbucket.org/my_company/my_project.git
+    set git remote in above way either in config file or from commandline
+    
+
+### Plugins
 
 ### Development
 
 Want to contribute? Great!
 
-Make a change in your file and instantaneously see your updates!
+Make a change in your file and create pull request to see your updates!
 
 Open your favorite Terminal and run these commands.
 
