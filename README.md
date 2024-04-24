@@ -94,16 +94,20 @@ Here is list and syntax of some important git commands that every developer must
  # *** add tag to commit. ***  
     - git git add .
     - git commit -m "some description"
-    - git tag tag_name ///ex. git tag app_release_android_qa_0.0.7_1 
     - git push origin master # push the commit
-    - git push --tags origin # push the tags
+    
+    - git tag # see tag lists
+    - git tag tag_name ///ex. git tag app_v1.0.0 
+    - git push origin app_v1.0.0 # push single tag
+    
+    - git push --tags origin # push all tags
     
  
  # *** delete local tag. ***
-    - git tag -d app_release_android_0.0.7_1
+    - git tag -d app_v1.0.0 
 
 # *** delete remote tag. ***
-    - git push --delete origin app_release_android_0.0.7_1
+    - git push --delete origin app_v1.0.0 
 
 # *** user repo without password. ***
     - url = https://myusername:kaeXedbWfhWxxxxxxx@bitbucket.org/my_company/my_project.git
