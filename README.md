@@ -112,7 +112,34 @@ Here is list and syntax of some important git commands that every developer must
 # *** user repo without password. ***
     - url = https://myusername:kaeXedbWfhWxxxxxxx@bitbucket.org/my_company/my_project.git
     set git remote in above way either in config file or from commandline
-    
+
+
+ # *** stash your code ***  
+
+    -View the list of all stash
+      git stash list
+      
+    -Save stash
+      git stash save "message"
+      
+    -Apply most recent stash entry
+      git stash apply
+      
+    -Remove and apply most recent stash entry
+      git stash pop
+      
+    -Apply specific stash entry
+      git stash apply stash@{1}
+
+    -Remove most recent stash entry (stash@{0})
+      git stash drop stash@{0}
+      
+    -Remove specific stash entry
+      git stash drop stash@{1}
+
+    -Clear the stash list
+      git stash clear 
+
 
 ### Plugins
 
